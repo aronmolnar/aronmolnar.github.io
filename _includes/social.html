@@ -1,0 +1,5 @@
+{%- assign social = site.social_links -%}
+
+{%- if social.linkedin -%}<a rel="me" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}" style="margin:8px;fill:#555;"><svg viewBox="0 0 16 16" width="30px" height="30px" ><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if social.twitter -%}<a rel="me" target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}" style="margin:8px;fill:#555;"><svg viewBox="0 0 16 16" width="30px" height="30px"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
+<a target="_blank" rel="noopener noreferrer" rel="me" href="{{ 'feed.xml' | relative_url }}" style="margin:8px;fill:#555;"><svg viewBox="0 0 16 16" width="30px" height="30px"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg></a>

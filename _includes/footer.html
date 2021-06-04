@@ -1,0 +1,12 @@
+
+<footer>
+  {% if page.url != "/" %}
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+    <span>
+        Made with &heartsuit;<br />
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time><br />
+    </span>
+  {% endif %}
+</footer>
