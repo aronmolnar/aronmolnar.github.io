@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hi! I'm Aron."
+title: "<div style=\"font-size:5rem;\"><center>Hi! I'm Aron.</center></div>"
 permalink: /about/aronmolnar
 ---
 
-<img src="{{ "/assets/aron.png" | relative_url }}" alt="Aron Molnar" />
+<img src="{{ "/assets/aron.jpg" | relative_url }}" alt="Aron Molnar" />
 # <center>I try to share what I've learned about security so far by...</center>
 
  * Taking the hacker's perspective.

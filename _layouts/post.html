@@ -15,9 +15,7 @@ layout: default
   </div>
 
   <h1 class="post-title">
-    {% if page.pagetitle %}
-      {{ page.pagetitle }}
-    {% else %}
+    {% if page.title and page.title != blank %}
       {{ page.title }}
     {% endif %}
   </h1>
