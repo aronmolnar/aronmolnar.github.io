@@ -1,0 +1,5 @@
+---
+layout: none
+---
+Contact: https://securityguide.me/security
+Preferred-Languages: de,en
