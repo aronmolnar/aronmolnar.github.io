@@ -36,6 +36,7 @@ remote_theme: chesterhow/tale
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 paginate_path: "/_pages/page:num/"
 paginate: 15
