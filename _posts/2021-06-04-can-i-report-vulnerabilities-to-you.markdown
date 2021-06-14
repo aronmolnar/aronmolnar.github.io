@@ -5,6 +5,8 @@ author: Aron
 date:   2021-06-04
 license: cc-by-4
 ---
+<img src="{{ "/assets/listening.jpg" | relative_url }}" alt="listening man" copyright="Andrea Piacquadio" />
+
 ###### A security.txt file offers a great possibility to publish contact details of your security team.
 
 If a security researcher finds a vulnerability or a data leak on the Internet, it is often not easy to find a contact person at the companies concerned. The researcher might not want to contact an office address without encryption. The email might pop up at a random person who is not concerned with security. This makes the reporting process cumbersome and the researcher might refrain from reporting the issue.
