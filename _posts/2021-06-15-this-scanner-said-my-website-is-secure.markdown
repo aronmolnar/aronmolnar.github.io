@@ -13,7 +13,7 @@ license: cc-by-4
 On the Internet, there are lots of great tools that make our lives easier.
 However, it is important to understand what certain tools do. And what they don't.
 
-One of those tools is the <a href="https://www.ssllabs.com/ssltest/analyze.html" target="_blank" rel="noopener noreferrer">
+One of those tools is the <a href="https://www.ssllabs.com/ssltest/analyze.html" target="_blank" rel="noopener">
 "SSL Server Test" by Qualys</a>. It performs a great analysis
 of a website's https settings. This is exactly what it does: It checks SSL/TLS settings. It actually does not check your 
 website's *security*. Good crypto settings are, of course, part of security. But actually a very small part.
@@ -25,6 +25,6 @@ like injections, broken authentication, etc. It gives a great report of your cry
 
 I don't say crypto settings are not important. But a website is not secure just because it has great crypto settings.
 
-The same applies to <a href="https://securityheaders.com/" target="_blank" rel="noopener noreferrer">
+The same applies to <a href="https://securityheaders.com/" target="_blank" rel="noopener">
 securityheaders.com</a>. Security headers only play a role when the security maturity is high. They probably should be ignored 
 by most companies, IMHO.

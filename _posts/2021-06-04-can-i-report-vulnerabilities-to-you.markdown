@@ -17,10 +17,10 @@ To solve this problem, there is the proposed standard of security.txt. This is a
 
 <img src="{{ "/assets/security_txt.png" | relative_url }}" alt="security.txt at BBC" />
 
-The file can be easily generated at <a href="https://securitytxt.org/" target="_blank" rel="noopener noreferrer">securitytxt.org</a>.
+The file can be easily generated at <a href="https://securitytxt.org/" target="_blank" rel="noopener">securitytxt.org</a>.
 
 Now, you receive security information for free. And life of idealistic and motivated security researchers is easier.
 
-A security.txt file can be found at <a href="https://www.google.com/.well-known/security.txt" target="_blank" rel="noopener noreferrer">Google</a>, <a href="https://www.facebook.com/.well-known/security.txt" target="_blank" rel="noopener noreferrer">Facebook</a>, <a href="https://www.bbc.co.uk/.well-known/security.txt" target="_blank" rel="noopener noreferrer">BBC</a>, <a href="https://www.tesco.com/.well-known/security.txt" target="_blank" rel="noopener noreferrer">Tesco</a> and <a href="https://www.offensity.com/.well-known/security.txt" target="_blank" rel="noopener noreferrer">Offensity</a>.
+A security.txt file can be found at <a href="https://www.google.com/.well-known/security.txt" target="_blank" rel="noopener">Google</a>, <a href="https://www.facebook.com/.well-known/security.txt" target="_blank" rel="noopener">Facebook</a>, <a href="https://www.bbc.co.uk/.well-known/security.txt" target="_blank" rel="noopener">BBC</a>, <a href="https://www.tesco.com/.well-known/security.txt" target="_blank" rel="noopener">Tesco</a> and <a href="https://www.offensity.com/.well-known/security.txt" target="_blank" rel="noopener">Offensity</a>.
 
 Do you have experience in using a security.txt? I'd love to hear them.
