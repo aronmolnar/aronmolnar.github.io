@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "This scanner said my website is secure..."
-author: Aron
+author: Aron Molnar
 description: People often claim their website is secure because it got an "A" rating by a certain online scanner. This is often too simple.
 image: /assets/open_door.jpg
 date:   2021-06-15

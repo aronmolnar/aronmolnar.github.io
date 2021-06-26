@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hacked in 30 minutes and 33 seconds"
-author: Aron
+author: Aron Molnar
 date:   2021-06-22
 description: I exposed a test system to the Internet. It took 30 minutes and 33 seconds to be compromised.
 image: /assets/restricted.jpg

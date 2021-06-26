@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Can I report vulnerabilities to you?"
-author: Aron
+author: Aron Molnar
 description: A security.txt file offers a great possibility to publish contact details of your security team.
 image: /assets/listening.jpg
 date: 2021-06-04
