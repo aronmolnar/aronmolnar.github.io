@@ -1,25 +1,43 @@
-<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup_scroll { width: 100%; }
-  #mc_embed_signup div { display: inline-block; text-align: center; }
-  #mc_embed_signup input { padding-right: 10%; }
-</style>
+<!-- Begin Signup Form -->
+<script>
+    function submit_form() {
+        let email = document.getElementById('email').value
+        if (!email.includes('@')) {
+            alert('Please enter a valid email address.');
+            return;
+        }
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                let jsonResponse = JSON.parse(this.responseText);
+                if (jsonResponse.success === true) {
+                    window.location.replace("/success/");
+                } else {
+                    window.location.replace("/failure/");
+                }
+            }
+        }
+        xhr.open('POST', 'https://stats.sender.net/forms/12213/subscribe', true);
+        xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+        let data = {
+            "email": email
+        };
+        xhr.send(JSON.stringify(data));
+    }
+    document.addEventListener('keydown', function(e){
+        if (e.key === "Enter") {
+            submit_form()
+        }
+    });
 
-<div id="mc_embed_signup">
-<form action="https://securityguide.us6.list-manage.com/subscribe/post?u=dc3e74569ae2f6113a9924cea&amp;id=d83b88a069" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
+</script>
 
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dc3e74569ae2f6113a9924cea_d83b88a069" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<!--End mc_embed_signup-->
-<br />
 <center>
+    <input id="email" name="email" type="text" placeholder="johnny.bravo@example.com" style="height:40px;width:250px;border:1px solid darkgrey;box-sizing: border-box;padding-left: 10px;">
+    <input value="Submit" type="button" onclick="submit_form()" style="height:40px;width:100px;border:1px solid darkgrey;">
+
+    <br /><br />
+
     Security for humans.<br />
     <span style="font-size:.8rem">No Spam. Ever.<br /><br /></span>
     <a href="/issues">Past issues</a> | <a href="/about/aronmolnar">About me</a>
