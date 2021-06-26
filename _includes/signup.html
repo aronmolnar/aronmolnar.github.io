@@ -11,9 +11,9 @@
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 let jsonResponse = JSON.parse(this.responseText);
                 if (jsonResponse.success === true) {
-                    window.location.replace("/success/");
+                    window.location.replace("/success");
                 } else {
-                    window.location.replace("/failure/");
+                    window.location.replace("/failure");
                 }
             }
         }
