@@ -8,14 +8,17 @@
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function() {
             if (xhr.readyState === XMLHttpRequest.DONE) {
-                let jsonResponse = JSON.parse(this.responseText);
-                if (jsonResponse.success === true) {
-                    window.location.replace("/success");
+                if (this.status === 200) {
+                    let jsonResponse = JSON.parse(this.responseText);
+                    if (jsonResponse.success === true) {
+                        window.location.replace("/success");
+                    } else {
+                        window.location.replace("/failure");
+                    }
                 } else {
                     window.location.replace("/failure");
                 }
-            } else {
-                    window.location.replace("/failure");
+
             }
         }
         xhr.open('POST', 'https://stats.sender.net/forms/12213/subscribe', true);
