@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Phones with Signal app should better not be investigated"
 author: Aron Molnar
 date:   2021-06-29
