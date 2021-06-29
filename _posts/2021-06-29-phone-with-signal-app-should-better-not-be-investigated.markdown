@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "Phones with Signal app should better not be investigated"
 author: Aron Molnar
 date:   2021-06-29
+description: Developers of the Signal messenger app sow doubt in forensic investigation reports of mobile phones. One more reason why I really like Signal.
+image: /assets/phones.jpg
 license: cc-by-4
 ---
 ###### Developers of the Signal messenger app sow doubt in forensic investigation reports of mobile phones. One more reason why I really like Signal.
