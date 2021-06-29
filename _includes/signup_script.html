@@ -3,6 +3,7 @@
         if (!email.includes('@')) {
             alert('Please enter a valid email address.');
             window.location.replace("/");
+            return;
         }
         let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function() {
