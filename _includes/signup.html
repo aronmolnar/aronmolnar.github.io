@@ -1,40 +1,8 @@
-<!-- Begin Signup Form -->
-<script>
-    function submit_form() {
-        let email = document.getElementById('email').value
-        if (!email.includes('@')) {
-            alert('Please enter a valid email address.');
-            return;
-        }
-        let xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-                let jsonResponse = JSON.parse(this.responseText);
-                if (jsonResponse.success === true) {
-                    window.location.replace("/success");
-                } else {
-                    window.location.replace("/failure");
-                }
-            }
-        }
-        xhr.open('POST', 'https://stats.sender.net/forms/12213/subscribe', true);
-        xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-        let data = {
-            "email": email
-        };
-        xhr.send(JSON.stringify(data));
-    }
-    document.addEventListener('keydown', function(e){
-        if (e.key === "Enter") {
-            submit_form()
-        }
-    });
-
-</script>
-
 <center>
-    <input id="email" name="email" type="text" placeholder="johnny.bravo@example.com" style="height:40px;width:250px;border:1px solid darkgrey;box-sizing: border-box;padding-left: 10px;">
-    <input value="Submit" type="button" onclick="submit_form()" style="height:40px;width:100px;border:1px solid darkgrey;">
+    <form action="/signup" method="get">
+        <input id="email" name="email" type="text" placeholder="Email" style="height:40px;width:250px;border:1px solid darkgrey;box-sizing: border-box;padding-left: 10px;">
+        <input value="Submit" type="submit" style="height:40px;width:100px;border:1px solid darkgrey;">
+    </form>
 
     <br /><br />
 

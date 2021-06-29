@@ -1,0 +1,31 @@
+<script>
+    function submit_form(email) {
+        if (!email.includes('@')) {
+            alert('Please enter a valid email address.');
+            window.location.replace("/");
+        }
+        let xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                let jsonResponse = JSON.parse(this.responseText);
+                if (jsonResponse.success === true) {
+                    window.location.replace("/success");
+                } else {
+                    window.location.replace("/failure");
+                }
+            } else {
+                    window.location.replace("/failure");
+            }
+        }
+        xhr.open('POST', 'https://stats.sender.net/forms/12213/subscribe', true);
+        xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+        let data = {
+            "email": email
+        };
+        xhr.send(JSON.stringify(data));
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const email = urlParams.get('email');
+    submit_form(email)
+</script>
