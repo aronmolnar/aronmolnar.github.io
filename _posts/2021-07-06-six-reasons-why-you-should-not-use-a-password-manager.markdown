@@ -4,12 +4,12 @@ title:  "6 reasons why you should not use a password manager"
 author: Aron Molnar
 description: I was really curious when I recently came across an article by "a team of global thought leaders and business leaders" why to not use a password manager. Here are my favorite reasons.
 date: 2021-07-06
-image: /assets/mind_your_head.jpg
+image: /assets/brain.jpg
 license: cc-by-4
 ---
 ###### I was really curious when I recently came across an article by "a team of global thought leaders and business leaders" why to not use a password manager. Here are my favorite reasons.
 
-<img src="{{ "/assets/mind_your_head.jpg" | relative_url }}" alt="mind your head" copyright="Arthur Brognoli" />
+<img src="{{ "/assets/brain.jpg" | relative_url }}" alt="mind your head" copyright="Arthur Brognoli" />
 
 "Why You Shouldn’t Use a Password Manager" is the title of a recent blog post by an organization called "openbusinesscouncil". Their conclusion is that password managers should only be used with "utmost caution". Here are my favorite reasons (please don't take my comments seriously).
 
