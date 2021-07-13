@@ -20,7 +20,7 @@ Forgetting passwords is an increasing problem. The latest security recommendatio
 So you guys access your password-protected stuff (like your emails) on insecure devices and think that the password manager is the issue? Seriously?
 
 ###### 3. "*They Don't Work on all Browsers and Devices*"
-Netflix is so unpopular because it does not work on Internet Explorer. This is really an issue (and Crtl+C/Ctrl+V is really so to memorize).
+Netflix is so unpopular because it does not work on Internet Explorer. This is really an issue (and Crtl+C/Ctrl+V is really so hard to memorize).
 
 ###### 4. "*The Service Itself Could be Bad*"
 This is true for all types of services, by the way. If we stop using them because they might be bad, we will not need any passwords either. 
