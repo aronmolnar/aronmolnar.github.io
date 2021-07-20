@@ -3,7 +3,9 @@
     {% if include.sticky == 'true' %}
     <span class="catalogue-pinned">Pinned &middot;</span>
     {% endif %}
-    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+    {% if post.image %}
+       <img src="{{ post.image }}" style="border:2px solid #EEE;" />
+    {% endif %}
     <h1 class="catalogue-title">{{ post.title }}</h1>
     <div class="catalogue-line"></div>
 
@@ -11,12 +13,10 @@
       {% if post.excerpt_separator %}
         {{ post.excerpt | strip_html }}
       {% else %}
-        {% if post.image %}
-          <img src="{{ post.image }}" style="border:2px solid #EEE;" />
-        {% endif %}
         {{ post.content | strip_html | truncatewords: 30 }}
       {% endif %}
     </p>
+    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }} &#183; {{ post.author }}</time>
 
   </div>
 </a>
