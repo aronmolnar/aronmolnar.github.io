@@ -1,5 +1,5 @@
-<a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-  <div>
+<div class="catalogue-item">
+  <a href="{{ post.url | prepend: site.baseurl }}"  class="catalogue-item" style="padding-bottom: 0rem;">
     {% if include.sticky == 'true' %}
     <span class="catalogue-pinned">Pinned &middot;</span>
     {% endif %}
@@ -16,7 +16,12 @@
         {{ post.content | strip_html | truncatewords: 30 }}
       {% endif %}
     </p>
-    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }} &#183; {{ post.author }}</time>
-
-  </div>
-</a>
+  </a>
+    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }} &#183;
+    {% if post.author == "Aron Molnar" %}
+      <a href="{{ '/aronmolnar' | prepend: site.baseurl }}" class="catalogue-time">{{ post.author }}</a>
+    {% else %}
+      {{ post.author }}
+    {% endif %}
+    </time>
+</div>

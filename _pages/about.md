@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "<div style=\"font-size:5rem;\"><center>Hi! I'm Aron.</center></div>"
-permalink: /about/aronmolnar
+permalink: /aronmolnar
 ---
 
 <img src="{{ "/assets/aron.jpg" | relative_url }}" alt="Aron Molnar" />
