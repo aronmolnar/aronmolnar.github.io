@@ -3,11 +3,11 @@ layout: post
 title:  "Can I report vulnerabilities to you?"
 author: Aron Molnar
 description: A security.txt file offers a great possibility to publish contact details of your security team.
-image: /assets/listening.jpg
+image: /assets/badass.jpg
 date: 2021-06-04
 license: cc-by-4
 ---
-<img src="{{ "/assets/listening.jpg" | relative_url }}" alt="listening man" copyright="Andrea Piacquadio" />
+<img src="{{ "/assets/badass.jpg" | relative_url }}" alt="badass hackers" copyright="Aron Molnar" />
 
 ###### A security.txt file offers a great possibility to publish contact details of your security team.
 
