@@ -2,6 +2,7 @@
 layout: post
 title: "<div style=\"font-size:5rem;\"><center>Hi! I'm Aron.</center></div>"
 permalink: /aronmolnar
+image: /assets/securityguideme_main.jpg
 ---
 
 <img src="{{ "/assets/aron.jpg" | relative_url }}" alt="Aron Molnar" />

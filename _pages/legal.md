@@ -2,6 +2,7 @@
 layout: post
 title: "Legal"
 permalink: /legal/
+image: /assets/securityguideme_main.jpg
 ---
 
 # <center>Some things I must tell you due to law</center>

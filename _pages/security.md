@@ -2,6 +2,7 @@
 layout: post
 title: Found a security issue?
 permalink: /security
+image: /assets/securityguideme_main.jpg
 ---
 
 <center>
