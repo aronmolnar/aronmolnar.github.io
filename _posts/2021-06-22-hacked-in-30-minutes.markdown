@@ -23,4 +23,4 @@ In 24 hours, I observed attacks from 32 different IP addresses, most of them fro
 
 Even though the first login attempt took 30 minutes, the experiment shows how fast weak systems are hacked. This attack can easily be prevented by applying minimum security requirements like permitting remote authentication using certificates only (which should be the default on every system).
 
-*You'll find all entered passwords on <a href="https://github.com/al3xdelarge/honeydata/blob/main/ssh_honeypot_passwords.tsv" target="_blank" rel="noopener">GitHub</a> under CC0 license.*
+*You'll find all entered passwords on <a href="https://github.com/aronmolnar/honeydata/blob/main/ssh_honeypot_passwords.tsv" target="_blank" rel="noopener">GitHub</a> under CC0 license.*
