@@ -4,12 +4,12 @@ title:  "Phones with Signal app should better not be investigated"
 author: Aron Molnar
 date:   2021-06-29
 description: Developers of the Signal messenger app sow doubt in forensic investigation reports of mobile phones. One more reason why I really like Signal.
-image: /assets/phones.jpg
+image: /assets/pc_explode.gif
 license: cc-by-4
 ---
 ###### Developers of the Signal messenger app sow doubt in forensic investigation reports of mobile phones. One more reason why I really like Signal.
 
-<img src="{{ "/assets/phones.jpg" | relative_url }}" alt="stack of mobile phones" copyright="Gabriel Freytez"  />
+<img src="{{ "/assets/pc_explode.gif" | relative_url }}" alt="pc exploding" copyright="Aron Molnar"  />
 
 When investigators confiscate a mobile phone, they first need to unlock it for analysis. Otherwise, contents are often encrypted. Investigators might unlock devices using biometric marks, which can be enforced (e.g. face unlock, fingerprints, etc). If a passphrase is used only, the owner would need to disclose the secret for unlocking.
 
