@@ -43,5 +43,4 @@ Even with a massive technology leap (like quantum computers), long and complex p
 Of course, cracking can be parallelized. While the time reduces linearly, the costs will remain (approximately).
 
 ### Video
-<iframe src="//www.youtube.com/embed/BT94-f3zpFM" frameborder="0" allowfullscreen="" class="video" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BT94-f3zpFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
