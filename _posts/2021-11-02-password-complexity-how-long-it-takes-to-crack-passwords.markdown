@@ -41,3 +41,7 @@ The price for a cracking server in the cloud is calculated at $1 per hour.
 Even with a massive technology leap (like quantum computers), long and complex passwords are still to be regarded uncrackable. For example, a complex password with 14 characters can then be cracked in 91 million years instead of 91 billion years, which is still unfeasible and expensive.
 
 Of course, cracking can be parallelized. While the time reduces linearly, the costs will remain (approximately).
+
+### Video
+<iframe src="//www.youtube.com/embed/BT94-f3zpFM" frameborder="0" allowfullscreen="" class="video" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+</iframe>
