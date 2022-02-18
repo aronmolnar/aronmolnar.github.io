@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Using a password manager // What everybody should know about using KeePassXC"
+title:  "Cleaning up hacked servers // Compromise Recovery at Microsoft by Alex Kolmann, Part 3/3"
 author: Aron Molnar
-date: 2021-11-09
-video: https://www.youtube.com/embed/uQUtBooXJ54
+date: 2022-02-03
+video: https://www.youtube.com/embed/Lzj7ivZMzIc
 ---
 
 <div class="container" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
-<iframe src="//www.youtube.com/embed/uQUtBooXJ54" 
+<iframe src="//www.youtube.com/embed/Lzj7ivZMzIc" 
 frameborder="0" allowfullscreen class="video" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
 </iframe>
 </div>

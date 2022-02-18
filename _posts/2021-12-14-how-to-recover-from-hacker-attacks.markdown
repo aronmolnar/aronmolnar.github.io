@@ -3,7 +3,7 @@ layout: post
 title:  "How to recover from hacker attacks // Compromise Recovery at Microsoft by Alex Kolmann, Part 1/3"
 author: Aron Molnar
 date: 2021-12-14
-video: https://www.youtube.com/watch?v=FKQqrjKfVZA
+video: https://www.youtube.com/embed/FKQqrjKfVZA
 ---
 
 <div class="container" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
