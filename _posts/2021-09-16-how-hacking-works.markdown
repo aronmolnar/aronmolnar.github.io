@@ -3,7 +3,6 @@ layout: post
 title:  "How Hacking Works: Stealing Data from a Webshop"
 author: Aron Molnar
 date: 2021-09-16
-video: https://www.youtube.com/embed/IXJTT5VbnqA
 ---
 
 <div class="container" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">

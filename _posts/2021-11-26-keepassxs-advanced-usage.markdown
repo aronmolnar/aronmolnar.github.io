@@ -3,7 +3,6 @@ layout: post
 title:  "KeePassXC Advanced Usage // 8 features you might have not heard about"
 author: Aron Molnar
 date: 2021-11-26
-video: https://www.youtube.com/embed/o6Bk0HLPLzo
 ---
 
 <div class="container" style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
