@@ -9,10 +9,10 @@ image: /assets/securityguideme_main.jpg
 # <center>I try to share what I've learned about security so far by...</center>
 
  * Taking the hacker's perspective.
- * Working at <a href="https://a1.digital/" target="_blank" rel="noopener">A1 Digital</a> being responsible for offensive security.
- * Building <a href="https://www.offensity.com" target="_blank" rel="noopener">Offensity</a> security monitoring solution, together with an amazing team.
+ * Being co-founder of <a href="https://www.syslifters.com/" target="_blank">Syslifters</a> pentesting company.
+ * Having worked at <a href="https://a1.digital/" target="_blank" rel="noopener">A1 Digital</a> being responsible for offensive security.
+ * Having built <a href="https://www.offensity.com" target="_blank" rel="noopener">Offensity</a> security monitoring solution, together with an amazing team.
  * Building and maintaining the <a href="https://vulnerabilityalert.me" target="_blank">vulnerabilityalert.me</a> vulnerability and exploit alert service.
- * Organizing monthly security meetups with my colleagues for continuous learning.
  * Working with a great team of hackers and security people, doing pentests, red teaming and social engineering.
  * Taking part in security challenges and winning the <a href="https://europeancybersecuritychallenge.eu/" target="_blank" rel="noopener">European Cyber Security Challenge</a> with the Austrian national team in 2015.
  * Speaking at multiple conferences.
